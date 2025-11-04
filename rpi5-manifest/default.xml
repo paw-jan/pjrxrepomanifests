@@ -1,32 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="yocto"
-          fetch="https://git.yoctoproject.org/" />
+  <!-- Remotes -->
+  <remote
+      name="yocto"
+      fetch="https://git.yoctoproject.org/"
+  />
 
-  <remote name="github"
-          fetch="https://github.com/" />
+  <remote
+      name="github"
+      fetch="https://github.com/"
+  />
 
-  <default revision="kirkstone"
-           remote="yocto"
-           sync-j="4" />
+  <!-- Default settings -->
+  <default
+      revision="kirkstone"
+      remote="yocto"
+      sync-j="4"
+  />
 
   <!-- Poky -->
-  <project name="poky"
-           path="poky"
-           revision="kirkstone" />
+  <project
+      name="poky"
+      path="poky"
+      revision="kirkstone"
+  />
 
   <!-- Raspberry Pi BSP -->
-  <project name="agherzan/meta-raspberrypi"
-           path="meta-raspberrypi"
-           remote="github"
-           revision="kirkstone" />
+  <project
+      name="agherzan/meta-raspberrypi"
+      path="meta-raspberrypi"
+      remote="github"
+      revision="kirkstone"
+  />
 
   <!-- OpenEmbedded Layers -->
-  <project name="openembedded/meta-openembedded"
-           path="meta-openembedded"
-           remote="github"
-           revision="kirkstone" />
+  <project
+      name="openembedded/meta-openembedded"
+      path="meta-openembedded"
+      remote="github"
+      revision="kirkstone"
+  />
+
+  <!-- PJ RX RPi5 repo -->
+  <project
+      name="paw-jan/pjrxrpi5"
+      path="pjrxrpi5"
+      remote="github"
+      revision="main"
+  />
 
 </manifest>
 
