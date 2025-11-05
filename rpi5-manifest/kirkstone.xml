@@ -44,8 +44,8 @@
 
   <!-- PJ RX RPi5 repo -->
   <project
-      name="paw-jan/pjrxrpi5"
-      path="pjrxrpi5"
+      name="paw-jan/meta-pjrxrpi5"
+      path="meta-pjrxrpi5"
       remote="github"
       revision="main"
   />
