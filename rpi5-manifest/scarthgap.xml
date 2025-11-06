@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote
+      name="yocto"
+      fetch="https://git.yoctoproject.org/"
+  />
+
+  <remote
+      name="github"
+      fetch="https://github.com/"
+  />
+
+  <default
+      revision="scarthgap"
+      remote="yocto"
+      sync-j="4"
+  />
+
+  <project
+      name="poky"
+      path="poky"
+      revision="scarthgap"
+  />
+
+  <project
+      name="agherzan/meta-raspberrypi"
+      path="meta-raspberrypi"
+      remote="github"
+      revision="scarthgap"
+  />
+
+  <project
+      name="openembedded/meta-openembedded"
+      path="meta-openembedded"
+      remote="github"
+      revision="scarthgap"
+  />
+
+  <project
+      name="paw-jan/meta-pjrxrpi5"
+      path="meta-pjrxrpi5"
+      remote="github"
+      revision="main"
+  />
+
+</manifest>
