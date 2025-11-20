@@ -44,4 +44,11 @@
       revision="main"
   />
 
+  <project
+      name="paw-jan/meta-pjrxkmod"
+      path="meta-pjrxkmod"
+      remote="github"
+      revision="main"
+  />
+
 </manifest>
